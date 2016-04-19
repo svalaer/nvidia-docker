@@ -2,7 +2,7 @@
 
 NV_DOCKER ?= docker
 
-OS ?= ubuntu-14.04
+OS ?= ubuntu-15.10
 USERNAME ?= nvidia
 WITH_PUSH_SUFFIX ?= 0
 ifeq ($(WITH_PUSH_SUFFIX), 1)
